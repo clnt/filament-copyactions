@@ -1,7 +1,7 @@
 # Filament Copy Actions
 
 > **Note**
-> For **Filament 2.x** use **[2.x](https://github.com/webbingbrasil/filament-copyactions/tree/2.x)** branch
+> For **Filament 3.x** use **[3.x](https://github.com/webbingbrasil/filament-copyactions/tree/3.x)** branch
 
 An easy-to-use copy actions for Filament Admin
 
