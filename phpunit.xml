@@ -20,14 +20,12 @@
             <directory suffix="Test.php">./tests/Feature</directory>
         </testsuite>
     </testsuites>
-    <coverage includeUncoveredFiles="true"
-              processUncoveredFiles="true"
-              ignoreDeprecatedCodeUnits="true"
-              disableCodeCoverageIgnore="true">
+    <coverage ignoreDeprecatedCodeUnits="true" disableCodeCoverageIgnore="true"/>
+    <source>
         <include>
             <directory suffix=".php">./src</directory>
         </include>
-    </coverage>
+    </source>
     <php>
         <env name="APP_ENV" value="testing"/>
         <env name="DB_CONNECTION" value="sqlite"/>

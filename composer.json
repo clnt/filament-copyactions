@@ -52,7 +52,7 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "scripts": {
-        "test": "vendor/bin/phpunit",
-        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+        "test": "vendor/bin/pest",
+        "test-coverage": "vendor/bin/pest --coverage --coverage-html=coverage --coverage-text"
     }
 }
